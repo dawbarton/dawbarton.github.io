@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - dev
-  push:
-    branches:
-      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -27,6 +24,7 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: '3.x'
+    - run: pip install matplotlib # if you use PyPlot this is needed
     - name: Install Julia
       uses: julia-actions/setup-julia@v1
       with:
@@ -52,5 +50,5 @@ jobs:
         # NOTE
         #   Set this to `BRANCH: gh-pages` for a **project** page and  to
         #   `BRANCH: master` for a **personal** page
-        BRANCH: master
+        BRANCH: gh-pages
         FOLDER: __site
