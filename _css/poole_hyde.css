@@ -258,7 +258,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  /* font-family: "Abril Fatface", serif; DAWB: removed */
   font-size: 3.25rem;
 }
 
@@ -301,13 +301,14 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  /* padding-top:    4rem; DAWB: removed */
   padding-bottom: 4rem;
 }
 
 @media (min-width: 768px) {
   .content {
-    max-width: 45rem;
+    /* max-width: 45rem; DAWB: changed max-width */
+    max-width: 60rem;
     margin-left: 15rem;
     margin-right: 2rem;
   }

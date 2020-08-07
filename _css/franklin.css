@@ -90,13 +90,13 @@ html {
 
 .franklin-content h1 {
     padding-bottom: 0.5em;
-    border-bottom: 3px double lightgrey;
+    /* border-bottom: 3px double lightgrey; DAWB: removed */
     margin-top: 1.5em;
     margin-bottom: 1em; }
 
 .franklin-content h2 {
     padding-bottom: 0.3em;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; DAWB: removed */
     margin-top: 2em;
     margin-bottom: 1em; }
 
