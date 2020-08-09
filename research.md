@@ -13,11 +13,11 @@ My specialties include
 * numerical methods for dynamical systems (particularly in the area of bifurcation analysis),
 * systems with delay (mostly delay differential equations).
 
-Despite being focussed on mathematics, I'm keen to 'get my hands dirty' by working directly with physical experiments. As such, the challenges of dealing with systems that are stochastic or uncertain are of significant interest to me. As such, Scientific Machine Learning is an area that I am focussing on at the moment since it brings the possibility of fusing physics-based differential-equation models with machine learnt models. Chris Rackauckas has produced a nice tutorial for doing [SciML in Julia](https://www.youtube.com/watch?v=QwVO0Xh2Hbg). 
+Despite being focussed on mathematics, I'm keen to 'get my hands dirty' by working directly with physical experiments. As such, the challenges of dealing with systems that are stochastic or uncertain are of significant interest to me. As such, Scientific Machine Learning (SciML) is an area that I am focussing on at the moment since it brings the possibility of fusing physics-based differential-equation models with machine learnt models. If you are interested in learning more about SciML, Chris Rackauckas has produced a nice tutorial for doing [SciML in Julia](https://www.youtube.com/watch?v=QwVO0Xh2Hbg). 
 
 ## Researchers
 
-If you are interested in working with me, either as a PhD student or a Research Associate (postdoc) do [get in touch](/). For prospective students, there is a page on [potential research topics](/research/potentialtopics/).
+If you are interested in working with me, either as a PhD student or a Research Associate (post-doc) do [get in touch](/). For prospective students, there is a page on [potential research topics](/research/potentialprojects/).
 
 ### Current research staff
 
