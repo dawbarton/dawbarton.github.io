@@ -2,6 +2,8 @@
 
 Below are a list of areas I'm keen to work on in the future. This isn't an exclusive list &mdash; there are plenty of other things that interest me! Feel free to [get in touch](/) if there is anything that interests you.
 
+The projects below are largely theory based, however if you are interested in doing physical experiments on nonlinear systems it'd be great to hear from you and we can see what the possibilities for working together are.
+
 ## Funding for research staff
 
 If you are looking for a Research Associate (post-doc) position, I advertise all my available jobs on [jobs.ac.uk](https://www.jobs.ac.uk/). If you are interested in applying for post-doctoral fellowships jointly with me, do get in touch. I have previously supported (successful) applications for Marie Skłodowska-Curie fellowships and for Royal Academy of Engineering fellowships.
