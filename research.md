@@ -13,6 +13,8 @@ My specialties include
 * numerical methods for dynamical systems (particularly in the area of bifurcation analysis),
 * systems with delay (mostly delay differential equations).
 
+See my page on [potential research topics](/research/potentialprojects/) for some thoughts on these areas.
+
 Despite being focussed on mathematics, I'm keen to 'get my hands dirty' by working directly with physical experiments. As such, the challenges of dealing with systems that are stochastic or uncertain are of significant interest to me. As such, Scientific Machine Learning (SciML) is an area that I am focussing on at the moment since it brings the possibility of fusing physics-based differential-equation models with machine learnt models. If you are interested in learning more about SciML, Chris Rackauckas has produced a nice tutorial for doing [SciML in Julia](https://www.youtube.com/watch?v=QwVO0Xh2Hbg). 
 
 ## Researchers
@@ -33,7 +35,7 @@ If you are interested in working with me, either as a PhD student or a Research 
 
 ### Previous research staff
 
-* Ludovic Renson &mdash; worked on control theory and related aspects control-based continuation (September 2014 until August 2019). Went onto a lectureship at Imperial College.
+* [Ludovic Renson](https://www.imperial.ac.uk/people/l.renson) &mdash; worked on control theory and related aspects control-based continuation (September 2014 until August 2019). Went onto a lectureship at Imperial College.
 * Irene Tartaruga &mdash; worked on control-based continuation as part of the EPSRC grant "Next-generation test methods for nonlinear structures" (May 2017 to December 2018). Went onto a permanent position at Stirling Dynamics.
 
 ### Previous research students

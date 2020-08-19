@@ -3,7 +3,7 @@
 # About me
 
 ~~~
-<img style="width: 256px;" class="right" src="/assets/DavidBarton.jpg">
+<img style="width: 256px; padding: 0px;" class="right" src="/assets/DavidBarton.jpg" alt="A picture of David AW Barton">
 ~~~
 I’m a Reader (equivalent to Associate Professor for those outside the UK) in [Engineering Mathematics](https://www.bristol.ac.uk/engineering-mathematics/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research) in nonlinear dynamics and control, mixed in with a bit of machine learning and robotics. I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte. These site is a mixture of my personal interests and my professional work ― who said business and pleasure don’t mix?!
 

@@ -13,7 +13,7 @@ If you are looking for a Research Associate (post-doc) position, I advertise all
 Funding for PhD students is quite limited at the moment; the main sources are
 
 * [EPSRC doctoral training partnership (DTPs)](https://epsrc.ukri.org/skills/students/dta/) &mdash; this funding is usually allocated in January each year to start the following October, though sometimes late funding appears. These awards are usually quite restricted in terms of who can apply; see the [EPSRC eligibility page](https://epsrc.ukri.org/skills/students/guidance-on-epsrc-studentships/eligibility/).
-* EPSRC doctoral training centres (CDTs) &mdash; these are large centres taking on around 10 students per year. There is typically year of taught material followed by 3 years of research. The CDT most relevant to my research is [FARSCOPE](https://www.farscope.bris.ac.uk/); I have previously supervised two PhD students under it.
+* EPSRC doctoral training centres (CDTs) &mdash; these are large centres taking on around 10 students per year. There is typically year of taught material followed by 3 years of research. The CDT most relevant to my research is [FARSCOPE](https://www.farscope.bris.ac.uk/) CDT in robotics; I have previously supervised two PhD students under it.
 * [Chinese Scholarship Council](http://www.bristol.ac.uk/fees-funding/awards/china-scholarship-council/) &mdash; relevant for students resident in China only.
 
 ## Projects
