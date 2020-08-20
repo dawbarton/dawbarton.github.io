@@ -1,3 +1,5 @@
+@def title = "David AW Barton &mdash; research"
+
 # Academic Research 
 
 For my publications, see my [Google Scholar page](https://scholar.google.co.uk/citations?user=9lxSeYMAAAAJ&hl=en) as Google is better at updating lists than I am!

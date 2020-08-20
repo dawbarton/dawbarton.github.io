@@ -1,4 +1,8 @@
-@def title = "Homepage of Dr David AW Barton"
+@def title = "David AW Barton &mdash; homepage"
+
+# Note
+
+I'm currently migrating this site to be a static site built with Franklin.jl &mdash; there might be a few issues to be resolved! (E.g., the blog...)
 
 # About me
 
