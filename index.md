@@ -21,14 +21,14 @@ For professional activities (i.e., mathematics/science/university enquiries), pl
 
 ```plaintext
 Department of Engineering Mathematics
-Merchant Venturers Building
+Ada Lovelace Building
 University of Bristol
-Woodland Road
-Bristol BS8 1UB
+University Walk
+Bristol BS8 1TW
 United Kingdom
 ```
 
-My office is room 2.44 in the Merchant Venturers Building.
+My office is room 3.7 in the Ada Lovelace Building.
 
 My main official responsibility is Faculty Admissions and Recruitment Officer (FARO) for Engineering. I’m overall responsible for student admissions into the Faculty of Engineering (both undergraduate and taught postgraduate programmes).
 
