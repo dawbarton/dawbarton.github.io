@@ -17,7 +17,7 @@ You can find me on GitHub as [@dawbarton](https://github.com/dawbarton/) and Twi
 
 ## Professional contact details
 
-For professional activities (i.e., mathematics/science/university enquiries), please email [david.barton@bristol.ac.uk](david.barton@bristol.ac.uk) or telephone my office on 0117 3315613. The postal address is
+For professional activities (i.e., mathematics/science/university enquiries), please email [david.barton@bristol.ac.uk](david.barton@bristol.ac.uk) or telephone my office on +44 (0)117 4560018. The postal address is
 
 ```plaintext
 Department of Engineering Mathematics
