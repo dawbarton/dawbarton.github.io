@@ -1,19 +1,17 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1><a href="/">City in the Sky</a></h1>
-      <p class="lead">Homepage of Dr&nbsp;David&nbsp;AW&nbsp;Barton</p>
+      <h1 style="font-size-adjust: 80%;"><a href="/">David AW Barton</a></h1>
+      <!-- <p class="lead">City in the Sky</p> -->
     </div>
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item {{ispage index.html}}active{{end}}" href="/">Home</a>
+      <a class="sidebar-nav-item {{ispage index.html}}active{{end}}" href="/">About me</a>
       <a class="sidebar-nav-item {{ispage blog/*}}active{{end}}" href="/blog/">Blog</a>
-      <a class="sidebar-nav-item {{ispage christianity/*}}active{{end}}" href="/christianity/">Christianity</a>
-      <a class="sidebar-nav-item {{ispage research/*}}active{{end}}" href="/research/">Academic Research</a>
-      <a class="sidebar-nav-item {{ispage opensource/*}}active{{end}}" href="/opensource/">Open Source</a>
+      {{ navitem christianity }}
+      {{ navitem research }}
+      {{ navitem opensource }}
     </nav>
-    <p>&copy; {{fill author}}.</p>
-    <p style="font-size: 80%;">Header picture &copy; <a href="https://www.flickr.com/photos/29233640@N07/7947324058/">Robert Couse-Baker</a> under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
+    <p style="font-size: 80%;">&copy; {{fill author}}</p>
+    <!-- <p style="font-size: 80%;">Header picture &copy; <a href="https://www.flickr.com/photos/29233640@N07/7947324058/">Robert Couse-Baker</a> under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p> -->
   </div>
 </div>
-<div class="content container">
-  <img id="header-image" src="/assets/RobertCouse-Baker_flickr_7947324058_e3b9f6c536_k.jpg" alt="A picture of clouds in the sky, lit by a sunset">

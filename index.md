@@ -1,10 +1,5 @@
-@def title = "David AW Barton &mdash; homepage"
-
-# Note
-
-I'm currently migrating this site to be a static site built with Franklin.jl &mdash; there might be a few issues to be resolved! (E.g., the blog...)
-
-# About me
+@def title = "About me"
+@def sitemap_changefreq = "weekly"
 
 ~~~
 <img style="width: 256px; padding: 0px;" class="right" src="/assets/DavidBarton.jpg" alt="A picture of David AW Barton">
@@ -14,6 +9,10 @@ I’m a Reader (equivalent to Associate Professor for those outside the UK) in [
 I also have a [blog](/blog) but it isn't updated all that frequently.
 
 You can find me on GitHub as [@dawbarton](https://github.com/dawbarton/) and Twitter as [@davidawbarton](https://twitter.com/DavidAWBarton) (though I don't use Twitter so much). If you are a [Julia](https://julialang.org/) user, you can usually find me on [Discourse](https://discourse.julialang.org/) or [Slack](https://julialang.slack.com/) as @dawbarton.
+
+## Latest blog posts
+
+{{ posts blog 3 }}
 
 ## Professional contact details
 

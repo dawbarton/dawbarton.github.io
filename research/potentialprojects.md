@@ -1,6 +1,5 @@
-@def title = "David AW Barton &mdash; areas for collaboration"
-
-# Potential research projects and areas for collaboration
+@def title = "Areas for collaboration"
+@def shorttitle = "Collaboration"
 
 Below are a list of areas I'm keen to work on in the future. This isn't an exclusive list &mdash; there are plenty of other things that interest me! Feel free to [get in touch](/) if there is anything that interests you.
 

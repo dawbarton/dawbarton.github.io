@@ -1,6 +1,4 @@
-@def title = "David AW Barton &mdash; Christianity"
-
-# Christianity
+@def title = "Christianity"
 
 At one level, my faith will be considered to be largely irrelevant to many people. However, it shapes every area of my life including my work. (Feel free to ask me how!)
 

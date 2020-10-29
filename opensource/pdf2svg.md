@@ -1,6 +1,4 @@
-@def title = "David AW Barton &mdash; PDF2SVG"
-
-# PDF2SVG
+@def title = "PDF2SVG"
 
 **Note:** since this utility was written, the maintainers of [Poppler](https://poppler.freedesktop.org/) have written a utility that works on the same principle: `pdftocairo`. I recommend that you use their utility since it is better maintained than mine.
 

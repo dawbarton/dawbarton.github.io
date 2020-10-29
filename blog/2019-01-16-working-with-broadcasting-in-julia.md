@@ -1,5 +1,3 @@
-# Working with broadcasting in Julia ({{ datetext }})
-
 @def title = "Working with broadcasting in Julia"
 @def published = Date(2019, 1, 16)
 

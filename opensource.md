@@ -1,6 +1,4 @@
-@def title = "David AW Barton &mdash; open source software"
-
-# Open source software
+@def title = "Open source"
 
 Here are some of the open source projects that I’ve worked on in the past. Sadly due to time constraints (and the fact that I don’t use the related platforms any more) both DCPcrypt and confluence-mathjax have been retired.
 

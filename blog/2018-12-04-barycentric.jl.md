@@ -1,5 +1,3 @@
-# Barycentric.jl ({{ datetext }})
-
 @def title = "Barycentric.jl"
 @def published = Date(2018, 12, 4)
 

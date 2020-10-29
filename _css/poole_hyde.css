@@ -259,6 +259,7 @@ html {
   color: #fff;
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; DAWB: removed */
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 3.25rem;
 }
 
@@ -301,7 +302,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  /* padding-top:    4rem; DAWB: removed */
+  padding-top:    4rem;
   padding-bottom: 4rem;
 }
 

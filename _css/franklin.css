@@ -81,7 +81,10 @@ html {
     TITLES
 ================================================================== */
 
-.franklin-content h1 { font-size: 24px; }
+.franklin-content h1 { 
+    /* font-size: 24px; DAWB: removed */
+    font-size: 2em;
+}
 .franklin-content h2 { font-size: 22px; }
 .franklin-content h3 { font-size: 20px; }
 
@@ -90,7 +93,7 @@ html {
 
 .franklin-content h1 {
     padding-bottom: 0.5em;
-    /* border-bottom: 3px double lightgrey; DAWB: removed */
+    border-bottom: 1px solid lightgrey;
     margin-top: 1.5em;
     margin-bottom: 1em; }
 

@@ -1,5 +1,3 @@
-# Collocation for finding periodic orbits of ODEs ({{ datetext }})
-
 @def title = "Collocation for finding periodic orbits of ODEs"
 @def published = Date(2020, 5, 1)
 
