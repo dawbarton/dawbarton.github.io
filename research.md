@@ -11,11 +11,12 @@ My specialties include
 * mathematical modelling (mostly engineering related, but I enjoy broader challenges and I’ve done some work in the bio-sciences), 
 * the dynamics and control of nonlinear systems,
 * numerical methods for dynamical systems (particularly in the area of bifurcation analysis),
-* systems with delay (mostly delay differential equations).
+* systems with delay (mostly delay differential equations), and
+* scientific machine learning (more recently).
 
 See my page on [potential research topics](/research/potentialprojects/) for some thoughts on these areas.
 
-Despite being focussed on mathematics, I'm keen to 'get my hands dirty' by working directly with physical experiments. As such, the challenges of dealing with systems that are stochastic or uncertain are of significant interest to me. As such, Scientific Machine Learning (SciML) is an area that I am focussing on at the moment since it brings the possibility of fusing physics-based differential-equation models with machine learnt models. If you are interested in learning more about SciML, Chris Rackauckas has produced a nice tutorial for doing [SciML in Julia](https://www.youtube.com/watch?v=QwVO0Xh2Hbg). 
+Despite being focussed on mathematics, I'm keen to 'get my hands dirty' by working directly with physical experiments. As such, the challenges of dealing with systems that are stochastic or uncertain are of significant interest to me. Related to this, Scientific Machine Learning (SciML) is an area that I am focussing on at the moment since it brings the possibility of fusing physics-based differential-equation models with machine learnt models. If you are interested in learning more about SciML, Chris Rackauckas has produced a nice tutorial for doing [SciML in Julia](https://www.youtube.com/watch?v=QwVO0Xh2Hbg). 
 
 ## Researchers
 
