@@ -12,6 +12,5 @@ If you are interested in working with me, either as a PhD student or a Research 
 
 ## Current doctoral research students
 
-* Kirsty Aquilina &mdash; working on control schemes for tactile manipulation in robotics and funded by the FARSCOPE centre for doctoral training (started Jan 2016).
 * Kyoung Hyun Lee &mdash; working on the fundamentals of control-based continuation and funded by a University of Bristol overseas scholarship (started Oct 2018).
 * Lizzie Stone &mdash; working on online learning control for tactile robotics and funded by the FARSCOPE centre for doctoral training (started Jan 2018).
