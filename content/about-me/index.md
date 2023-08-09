@@ -6,7 +6,7 @@ cover:
     alt: "A picture of David AW Barton"
 ---
 
-I’m a Reader (equivalent to Associate Professor for those outside the UK) in [Engineering Mathematics](https://www.bristol.ac.uk/engineering-mathematics/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control, mixed in with a bit of machine learning and robotics. I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte, and spend a lot of time involved in my local church [Emmanuel Bishopston](https://emmanuelbristol.org.uk/bishopston/).
+I’m a Professor of Computational and Experimental Mathematics  in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/engineering/schools/eng-maths-tech/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control mixed with machine learning, and a bit of robotics. I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte, and spend a lot of time involved in my local church [Emmanuel Bishopston](https://emmanuelbristol.org.uk/bishopston/).
 
 You can find me on GitHub as [@dawbarton](https://github.com/dawbarton/) and Twitter as [@davidawbarton](https://twitter.com/DavidAWBarton). If you are a [Julia](https://julialang.org/) user, you can usually find me on [Discourse](https://discourse.julialang.org/) or [Slack](https://julialang.slack.com/) as @dawbarton.
 

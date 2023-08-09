@@ -5,10 +5,11 @@ weight: 40
 
 ## Previous post-doctoral research staff
 
-* Sandor Beregi &mdash; working on control-based continuation and SciML funded by as part of the EPSRC grant ["Next-generation test methods for nonlinear structures"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/P019323/1) (May 2019 until January 2023). Went onto a research associate position at Imperial College.
-* Alessandra Vizzaccaro &mdash; working on hybrid testing with uncertainty as part of the EPSRC grant ["Digital twins for improved dynamic design"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R006768/1) (November 2020 until December 2022). Went onto a research associate position at the University of Exeter.
+* Dongxiao Hong &mdash; working on uncertainty quantification in hybrid testing and more generally for nonlinear systems funded as part of the EPSRC Programme Grant ["Digital twins for improved dynamic design"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R006768/1) (May 2022 until July 2023). Went onto a research associate position at Imperial College London.
+* Sandor Beregi &mdash; working on control-based continuation and SciML funded as part of the EPSRC Responsive-Mode Grant ["Next-generation test methods for nonlinear structures"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/P019323/1) and, subsequently, by the EPSRC Programme Grant ["Digital twins for improved dynamic design"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R006768/1) (May 2019 until January 2023). Went onto a research associate position at Imperial College London.
+* Alessandra Vizzaccaro &mdash; working on hybrid testing with uncertainty as part of the EPSRC Programme Grant ["Digital twins for improved dynamic design"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R006768/1) (November 2020 until December 2022). Went onto a research associate position at the University of Exeter.
 * [Ludovic Renson](https://www.imperial.ac.uk/people/l.renson) &mdash; worked on control theory and related aspects control-based continuation (September 2014 until August 2019). Went on to a lectureship at Imperial College.
-* Irene Tartaruga &mdash; worked on control-based continuation as part of the EPSRC grant "Next-generation test methods for nonlinear structures" (May 2017 to December 2018). Went on to work as a Loads and Aerodynamics Engineer at Stirling Dynamics.
+* Irene Tartaruga &mdash; worked on control-based continuation as part of the EPSRC Responsive-Mode Grant ["Next-generation test methods for nonlinear structures"](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/P019323/1) (May 2017 to December 2018). Went on to work as a Loads and Aerodynamics Engineer at Stirling Dynamics.
 
 ## Previous doctoral research students
 
