@@ -15,7 +15,9 @@ mainSections = ["posts"]
 enabled = true
 title = "David A W Barton"
 subtitle = """
-*Professor of Computional and Experimental Mathematics*
+**_Professor of Computional and Experimental Mathematics_**
+
+University of Bristol
 
 Researcher, Teacher, Open Source Developer, Christian
 """
