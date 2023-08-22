@@ -36,6 +36,10 @@ url = "https://github.com/dawbarton/"
 name = "twitter"
 url = "https://twitter.com/davidawbarton/"
 
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/david-barton-61822443/"
+
 [privacy.youtube]
 privacyEnhanced = true
 
