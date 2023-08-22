@@ -1,18 +1,19 @@
 ---
 title: "About Me"
-description: "Who I am, what I do, and how to contact me."
 cover:
     image: "DavidBarton.jpg"
-    alt: "A picture of David AW Barton"
+    alt: "A picture of David A W Barton"
 ---
 
-I’m a Professor of Computational and Experimental Mathematics  in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/engineering/schools/eng-maths-tech/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control mixed with machine learning, and a bit of robotics. I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte, and spend a lot of time involved in my local church [Emmanuel Bishopston](https://emmanuelbristol.org.uk/bishopston/).
+I’m a Professor of Computational and Experimental Mathematics in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/engineering/schools/eng-maths-tech/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control mixed with scientific machine learning, and a bit of robotics.
 
-You can find me on GitHub as [@dawbarton](https://github.com/dawbarton/) and Twitter as [@davidawbarton](https://twitter.com/DavidAWBarton). If you are a [Julia](https://julialang.org/) user, you can usually find me on [Discourse](https://discourse.julialang.org/) or [Slack](https://julialang.slack.com/) as @dawbarton.
+I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte, and spend a lot of time involved in my local church [Emmanuel Bishopston](https://emmanuelbristol.org.uk/bishopston/).
+
+I've been heavily involved with [open source](/open-source/) development in the past — you can find me on GitHub as [@dawbarton](https://github.com/dawbarton/). Since 2016, I've been an active [Julia](https://julialang.org/) user (and occasional contributor); you can usually find me on [Discourse](https://discourse.julialang.org/) or [Slack](https://julialang.slack.com/) as @dawbarton.
 
 ## Professional contact details
 
-For professional activities (i.e., mathematics/science/university enquiries), please email [david.barton@bristol.ac.uk](david.barton@bristol.ac.uk) or telephone my office on +44 (0)117 4560018. The postal address is
+For professional activities (i.e., mathematics/science/university enquiries), please email [david.barton@bristol.ac.uk](david.barton@bristol.ac.uk). The postal address is
 
 ```plaintext
     Department of Engineering Mathematics

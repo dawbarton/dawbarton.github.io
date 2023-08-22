@@ -2,7 +2,7 @@
 title: "Principles of the UKRIO code of practice for research"
 ---
 
-These are taken from https://ukrio.org/publications/code-of-practice-for-research/2-0-principles/ and I strongly encourage others to follow them.
+Academic life can progress in many different ways. As far as I can, I aim to provide a healthy work environment for all those I interact with. As such, I follow these principles taken from https://ukrio.org/publications/code-of-practice-for-research/2-0-principles/ and I strongly encourage others to follow them.
 
 **EXCELLENCE:** organisations and researchers should strive for excellence when conducting research and aim to produce and disseminate work of the highest quality. This Code, its Principles and its Standards are intended to support these goals.
 

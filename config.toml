@@ -1,7 +1,7 @@
 baseURL = "https://cityinthesky.co.uk/"
 languageCode = "en-gb"
-title = "David AW Barton"
-description = "Personal webpage of David AW Barton"
+title = "David A W Barton"
+description = "Personal webpage of David A W Barton"
 theme = "PaperMod"
 
 [params]
@@ -11,14 +11,18 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 mainSections = ["posts"]
 
-[params.homeInfoParams]
-author = "David AW Barton"
-title = "City in the Sky"
-content = """
-Welcome to the personal homepage of Dr David AW Barton. Here you'll find various posts on my scientific research, Julia programming, open-source software, and my faith in Jesus Christ.
+[params.profileMode]
+enabled = true
+title = "David A W Barton"
+subtitle = """
+*Professor of Computional and Experimental Mathematics*
 
-You can find information about me in the links above and recent blog posts are below.
+Researcher, Teacher, Open Source Developer, Christian
 """
+imageUrl = "about-me/DavidBarton-square.jpg"
+imageTitle = "A picture of David A W Barton"
+imageWidth = 200
+imageHeight = 200
 
 [[params.socialIcons]]
 name = "email"
@@ -47,7 +51,7 @@ enableDNT = true
 simple = true
 
 [[menu.main]]
-name = "About me"
+name = "About"
 url = "/about-me/"
 weight = 10
 
@@ -67,6 +71,6 @@ url = "/christianity/"
 weight = 40
 
 [[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 50
+name = "Blog"
+url = "/posts/"
+weight = 15
