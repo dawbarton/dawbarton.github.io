@@ -5,8 +5,6 @@ weight: 30
 
 If you are interested in working with me, either as a PhD student or a Research Associate (post-doctoral) take a look at my page on [opportunities for new researchers](../new-researchers/).
 
-{{/* ## Current post-doctoral research staff */}}
-
 ## Current doctoral research students
 
 * [Andrew Shannon](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2022-cohort/shannon/) &mdash; working on scientific machine learning in neural dynamics and funded by the Interactive AI centre for doctoral training (started October 2022).
