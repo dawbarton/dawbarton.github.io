@@ -3,6 +3,8 @@ title: "Opportunities for new researchers"
 weight: 20
 ---
 
+I manage a collaborative and friendly group of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Robotics Research Group, the Dynamics and Control Research Group, and the Computational Neuroscience Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, GraphCore).
+
 If you are looking for a PhD projects, see my posts with the [potential-project](/tags/potential-project) tag. Most of the projects are fairly broad in scope so there is plenty of room to define your own directions, though occasionally I'll post more restrictive projects when the funding source is more prescriptive. I've got some funding information below for both PhD and post-doctoral researchers to answer some common questions I get. Feel free to drop me an [email](mailto:david.barton@bristol.ac.uk) with your CV if you are interested in any of the projects or have other (related) ideas of your own.
 
 I seek to follow the [UKRIO Code of Practice for Research](../ukrio-code-of-practice/) and I strongly encourage others to do the same.

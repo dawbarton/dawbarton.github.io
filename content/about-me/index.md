@@ -5,7 +5,7 @@ cover:
     alt: "A picture of David A W Barton"
 ---
 
-I’m a Professor of Computational and Experimental Mathematics in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/engineering/schools/eng-maths-tech/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control mixed with scientific machine learning, and a bit of robotics.
+I’m a Professor of Computational and Experimental Mathematics in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/engineering/schools/eng-maths-tech/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I’m active in [research](/research/) in nonlinear dynamics and control mixed with scientific machine learning, and a bit of robotics. I'm always interested in new collaborations, so take a look at my [research](/research/) pages and get in touch.
 
 I’m also husband to Johanna and father of Phoebe, Niamh, Esther, Titus, and Charlotte, and spend a lot of time involved in my local church [Emmanuel Bishopston](https://emmanuelbristol.org.uk/bishopston/).
 
