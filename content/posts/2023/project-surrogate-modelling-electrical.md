@@ -1,6 +1,5 @@
 ---
 title: "Research project: Surrogate modelling and machine learning for electrical power systems"
-description: ""
 date: 2023-11-03
 tags: ["potential-project"]
 ---

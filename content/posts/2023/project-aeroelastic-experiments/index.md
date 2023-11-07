@@ -1,6 +1,5 @@
 ---
 title: "Research project: Hybrid modelling and nonlinear dynamics in aircraft design"
-description: ""
 date: 2023-11-03
 tags: ["potential-project"]
 ---
