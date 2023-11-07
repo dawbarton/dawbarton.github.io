@@ -23,4 +23,4 @@ The overall aims are threefold:
 - To extend CBC to multi-degree-of-freedom systems, with application to other engineered structures.
 - To develop a hybrid modelling approach for aerospace systems that combines machine learning with physics-based models.
 
-If you are interested in working on this or a related project, please send a copy of your CV to [david.barton@bristol.ac.uk](mailto:david.barton@bristol.ac.uk) and we can discuss the possibilities.
+If you are interested in working on this or a related project, please email [david.barton@bristol.ac.uk](mailto:david.barton@bristol.ac.uk) with a copy of your CV and a short description of your research interests; we can co-develop a more complete research statement tailored to you. Applications from all backgrounds are encouraged, especially under-represented groups.
