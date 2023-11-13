@@ -6,7 +6,9 @@ tags: ["paper"]
 
 An overview of **'A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints',** Roussel D. Nzoyem Ngueguin, David A.W. Barton, Tom Deakin, [SC23, Denver, USA](https://sc23.supercomputing.org/)
 
-[Available on arXiv](https://arxiv.org/abs/2310.02286)
+[Available on arXiv](https://arxiv.org/abs/2310.02286) or via the [ACM](https://doi.org/10.1145/3624062.3626078)
+
+A [BibTeX reference is also available](https://www.doi2bib.org/bib/https://doi.org/10.1145/3624062.3626078).
 
 > *Editorial note:* I've often intended to create blog posts of papers that I've been involved with but I've never managed to make time to do it. However, in the world of ChatGPT we can automatically (and largely accurately) generate them.
 >
