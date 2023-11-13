@@ -1,6 +1,5 @@
 ---
 title: "Research project: Online learning for tactile robotics"
-description: ""
 date: 2023-11-03
 tags: ["potential-project"]
 ---
