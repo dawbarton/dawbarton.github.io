@@ -13,6 +13,7 @@ weight: 40
 
 ## Previous doctoral research students
 
+* Lizzie Stone &mdash; Feeling the way: creating versatile tactile robots through online learning for edge following (awarded PhD 23 January 2024).
 * Kyoung Hyun Lee &mdash; Bifurcation-based ordinary differential equation model identification (awarded PhD 24 January 2023). Went on to a research associate position at the University of Auckland.
 * Kirsty Aquilina &mdash; Tactile perception and control of a soft shear-sensitive optical tactile sensor (awarded PhD 24 June 2021). Went on to work as a data scientist at Aptiv (autonomous driving systems).
 * Adam Zienkiewicz &mdash; Data-driven modelling of zebrafish locomotion and collective behaviour (awarded PhD 10 May 2016). Went on to work as a Robotics Engineer at Dyson.
