@@ -1,6 +1,6 @@
 ---
 title: "New collaborations"
-weight: 15
+weight: 35
 ---
 
 Collaborative work is one of the best parts of academic life and my previous collaborations have led to many different contributions and outcomes. Whether hosting visiting PhD students or Professors, or remote work on a topic of mutual interest, I'm keen to explore new collaborations.
