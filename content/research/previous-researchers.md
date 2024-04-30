@@ -1,5 +1,5 @@
 ---
-title: "Previous researchers"
+title: "Previous team members"
 weight: 40
 ---
 

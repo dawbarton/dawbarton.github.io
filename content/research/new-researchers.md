@@ -1,7 +1,9 @@
 ---
-title: "Opportunities for new researchers"
-weight: 20
+title: "Joining the team"
+weight: 30
 ---
+
+**[Example PhD projects](/tags/potential-project)** gives a few suggestions of topics I'm interested in.
 
 I manage a collaborative and friendly group of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Robotics Research Group, the Dynamics and Control Research Group, and the Computational Neuroscience Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, GraphCore).
 

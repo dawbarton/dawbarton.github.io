@@ -1,6 +1,6 @@
 ---
-title: "Current researchers"
-weight: 30
+title: "Current research team"
+weight: 20
 ---
 
 If you are interested in working with me, either as a PhD student or a Research Associate (post-doctoral) take a look at my page on [opportunities for new researchers](../new-researchers/).
