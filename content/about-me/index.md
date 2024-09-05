@@ -26,8 +26,6 @@ For professional activities (i.e., mathematics/science/university enquiries), pl
 
 My office is room 3.7 in the Ada Lovelace Building.
 
-My main official responsibility is Faculty Admissions and Recruitment Officer (FARO) for Engineering. I’m overall responsible for student admissions into the Faculty of Engineering (both undergraduate and taught postgraduate programmes).
-
 ## Personal contact details
 
 For everything else (including open source software) email [barton@cityinthesky.co.uk](mailto:barton@cityinthesky.co.uk).
