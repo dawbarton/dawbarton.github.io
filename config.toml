@@ -35,8 +35,8 @@ name = "github"
 url = "https://github.com/dawbarton/"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/davidawbarton/"
+name = "googlescholar"
+url = "https://scholar.google.com/citations?hl=en&user=9lxSeYMAAAAJ"
 
 [[params.socialIcons]]
 name = "linkedin"
