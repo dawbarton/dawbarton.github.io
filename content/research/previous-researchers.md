@@ -15,9 +15,9 @@ weight: 40
 
 ## Previous doctoral research students
 
-* Lizzie Stone &mdash; Feeling the way: creating versatile tactile robots through online learning for edge following (awarded PhD 23 January 2024). Went on to be a software engineer at Renishaw.
-* Kyoung Hyun Lee &mdash; Bifurcation-based ordinary differential equation model identification (awarded PhD 24 January 2023). Went on to a research associate position at the University of Auckland.
-* Kirsty Aquilina &mdash; Tactile perception and control of a soft shear-sensitive optical tactile sensor (awarded PhD 24 June 2021). Went on to work as a data scientist at Aptiv (autonomous driving systems).
-* Adam Zienkiewicz &mdash; Data-driven modelling of zebrafish locomotion and collective behaviour (awarded PhD 10 May 2016). Went on to work as a robotics engineer at Dyson.
-* Dan Hewitt &mdash; Detecting freeplay in mechanical systems (awarded PhD 10 May 2016). Went on to work as a research engineer at MASS.
-* [Andrea Cammarano](https://www.southampton.ac.uk/people/65cs99/professor-andrea-cammarano) &mdash; Increasing the bandwidth of resonant vibration-based energy harvesters (awarded PhD 8 January 2013). Went on to a lectureship at the University of Glasgow.
+* Lizzie Stone &mdash; Feeling the way: creating versatile tactile robots through online learning for edge following (awarded PhD 23 January 2024; co-supervised with Nathan Lepora). Went on to be a software engineer at Renishaw.
+* Kyoung Hyun Lee &mdash; Bifurcation-based ordinary differential equation model identification (awarded PhD 24 January 2023; co-supervised with Ludovic Renson). Went on to a research associate position at the University of Auckland.
+* Kirsty Aquilina &mdash; Tactile perception and control of a soft shear-sensitive optical tactile sensor (awarded PhD 24 June 2021; co-supervised with Nathan Lepora). Went on to work as a data scientist at Aptiv (autonomous driving systems).
+* Adam Zienkiewicz &mdash; Data-driven modelling of zebrafish locomotion and collective behaviour (awarded PhD 10 May 2016; co-supervised with Mario di Bernardo). Went on to work as a robotics engineer at Dyson.
+* Dan Hewitt &mdash; Detecting freeplay in mechanical systems (awarded PhD 10 May 2016; co-supervised with Steve Burrow). Went on to work as a research engineer at MASS.
+* [Andrea Cammarano](https://www.southampton.ac.uk/people/65cs99/professor-andrea-cammarano) &mdash; Increasing the bandwidth of resonant vibration-based energy harvesters (awarded PhD 8 January 2013; co-supervised with Steve Burrow). Went on to a lectureship at the University of Glasgow and now a professor at the University of Southampton.
