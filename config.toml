@@ -45,13 +45,6 @@ url = "https://www.linkedin.com/in/david-barton-61822443/"
 [privacy.youtube]
 privacyEnhanced = true
 
-[privacy.twitter]
-enableDNT = true
-simple = true
-
-[services.twitter]
-disableInlineCSS = true
-
 [privacy.vimeo]
 enableDNT = true
 simple = true
