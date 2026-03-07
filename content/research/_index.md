@@ -1,6 +1,5 @@
 ---
 title: "Research"
-description: "Research in nonlinear dynamics, scientific machine learning, and tactile robotics at the University of Bristol. Open to PhD students, post-docs, and collaborators."
 ---
 
 I lead a research team at the intersection of **applied mathematics**, **engineering**, and **machine learning**. My core focus is [scientific machine learning (SciML)](background/) applied to nonlinear dynamics &mdash; fusing physics-based models with data-driven approaches to tackle problems that neither field can solve alone.
