@@ -5,7 +5,7 @@ weight: 10
 
 ## Biography
 
-David A W Barton is Professor of Computational and Experimental Mathematics in the School of Engineering Mathematics and Technology at the University of Bristol. He has spent his entire independent career at Bristol, progressing through Lecturer (2010), Senior Lecturer with accelerated progression (2016), Reader (2018), and Professor (2023). Prior to his independent career he held postdoctoral positions at Bristol — a Lloyds Tercentenary Foundation Fellowship (2006–2007) and a Great Western Research Fellowship (2007–2010) — with a period as International Scholar in Mechanical Engineering and Materials Science at Duke University, USA (2009–2010). He is Director of the [Data-Driven Engineering and Sciences](https://engmaths.github.io/ddes-dte/) doctoral training environment in the School of Engineering Mathematics and Technology.
+David A W Barton is Professor of Computational and Experimental Mathematics in the School of Engineering Mathematics and Technology at the University of Bristol. He has spent his entire independent career at Bristol, progressing through Lecturer (2010), Senior Lecturer with accelerated progression (2016), Reader (2018), and Professor (2023). Prior to his independent career he held postdoctoral positions at Bristol — a Lloyds Tercentenary Foundation Fellowship (2006–2007) and a Great Western Research Fellowship (2007–2010) — with a period as International Scholar in Mechanical Engineering and Materials Science at Duke University, USA (2009–2010). He is co-Director of the [Data-Driven Engineering and Sciences](https://engmaths.github.io/ddes-dte/) doctoral training environment in the School of Engineering Mathematics and Technology.
 
 ---
 

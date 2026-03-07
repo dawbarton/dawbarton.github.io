@@ -13,7 +13,7 @@ If you are looking for a PhD project, see my [example PhD projects](../phd-proje
 
 ### Data-Driven Engineering and Sciences doctoral training environment
 
-I am Director of the [Data-Driven Engineering and Sciences (DDES)](https://engmaths.github.io/ddes-dte/) doctoral training environment in the School of Engineering Mathematics and Technology. DDES offers **fully-funded PhD places** across the breadth of data-driven research in the school &mdash; if your interests lie anywhere in this space, this is an excellent route in. See the [DDES website](https://engmaths.github.io/ddes-dte/) for current opportunities and application details.
+I am co-Director of the [Data-Driven Engineering and Sciences (DDES)](https://engmaths.github.io/ddes-dte/) doctoral training environment in the School of Engineering Mathematics and Technology. DDES offers **fully-funded PhD places** across the breadth of data-driven research in the school &mdash; if your interests lie anywhere in this space, this is an excellent route in. See the [DDES website](https://engmaths.github.io/ddes-dte/) for current opportunities and application details.
 
 ### Other funding for PhD students
 
