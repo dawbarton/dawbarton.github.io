@@ -19,9 +19,9 @@ subtitle = """
 
 [University of Bristol](https://www.bristol.ac.uk/)
 
-Nonlinear dynamics &middot; Scientific machine learning &middot; Tactile robotics
+Nonlinear dynamics &nbsp;&bull;&nbsp; Scientific machine learning &nbsp;&bull;&nbsp; Scientific computing
 
-[Research](/research/) &nbsp;&bull;&nbsp; [PhD opportunities](/research/phd-projects/) &nbsp;&bull;&nbsp; [Collaborations](/research/new-researchers/)
+[**Research**](/research/) &nbsp;&bull;&nbsp; [**PhD opportunities**](/research/phd-projects/) &nbsp;&bull;&nbsp; [**Collaborations**](/research/new-researchers/)
 """
 imageUrl = "about-me/DavidBarton-square.jpg"
 imageTitle = "A picture of David A W Barton"
@@ -30,7 +30,7 @@ imageHeight = 200
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto:barton@cityinthesky.co.uk"
+url = "mailto:david.barton@bristol.ac.uk"
 
 [[params.socialIcons]]
 name = "github"
