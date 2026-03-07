@@ -5,7 +5,7 @@ aliases:
   - /research/new-collaborations/
 ---
 
-I manage a collaborative and friendly group of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Robotics Research Group, the Dynamics and Control Research Group, and the Computational Neuroscience Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, GraphCore).
+I manage a collaborative and friendly team of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Dexterous Robotics Research Group, the Dynamics and Control Research Group, and the Mathematical Biology Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, Renishaw).
 
 ## PhD students
 
@@ -15,7 +15,7 @@ If you are looking for a PhD project, see my [example PhD projects](../phd-proje
 
 Funding for PhD students comes from several sources:
 
-* [EPSRC doctoral training partnerships (DTPs)](https://epsrc.ukri.org/skills/students/dta/) &mdash; usually allocated in January each year for an October start. These awards have some eligibility restrictions, though up to 30% of students can be international; see the [EPSRC eligibility page](https://epsrc.ukri.org/skills/students/guidance-on-epsrc-studentships/eligibility/).
+* [EPSRC Doctoral Landscape Awards / Bristol Postgraduate Research Scholarships](https://www.bristol.ac.uk/science-engineering/postgraduate-research/pgr-scholarships/) &mdash; usually allocated in January/February each year for a September/October start. These awards have some eligibility restrictions, though some awards can be for international students.
 * EPSRC doctoral training centres (CDTs) &mdash; larger centres taking around 10 students per year, typically with one year of taught material followed by three years of research.
 * [Chinese Scholarship Council](http://www.bristol.ac.uk/fees-funding/awards/china-scholarship-council/) &mdash; for students resident in China.
 

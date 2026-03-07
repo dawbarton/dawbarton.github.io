@@ -15,7 +15,7 @@ weight: 40
 
 ## Previous doctoral research students
 
-* [Roussel Desmond Nzoyem Ngueguin](https://ddrous.github.io/) &mdash; Learning to learn sequential dynamics: context-aware out-of-distribution adaptation for time series and physical systems (awarded PhD 9 December 2025; co-supervised with Tom Deakin). Went on to a research associate position at the University of Alberta, Canada.
+* [Roussel Desmond Nzoyem Ngueguin](https://ddrous.github.io/) &mdash; Learning to learn sequential dynamics: context-aware out-of-distribution adaptation for time series and physical systems (awarded PhD 9 December 2025; co-supervised with Tom Deakin). Went on to a research associate position at the University of Manchester, UK.
 * Lizzie Stone &mdash; Feeling the way: creating versatile tactile robots through online learning for edge following (awarded PhD 23 January 2024; co-supervised with Nathan Lepora). Went on to be a software engineer at Renishaw.
 * Kyoung Hyun Lee &mdash; Bifurcation-based ordinary differential equation model identification (awarded PhD 24 January 2023; co-supervised with Ludovic Renson). Went on to a research associate position at the University of Auckland.
 * Kirsty Aquilina &mdash; Tactile perception and control of a soft shear-sensitive optical tactile sensor (awarded PhD 24 June 2021; co-supervised with Nathan Lepora). Went on to work as a data scientist at Aptiv (autonomous driving systems).

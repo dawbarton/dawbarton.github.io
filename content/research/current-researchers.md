@@ -7,6 +7,7 @@ If you are interested in working with me, either as a PhD student or a Research 
 
 ## Current doctoral research students
 
+<!-- Remove Harry / Max and add Youssef? -->
 * Bingyu Li &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft and funded by a CSC scholarship (started September 2025, co-supervised by Djamel Rezgui).
 * Keju Pu &mdash; working on tool use in tactile robotics and funded by a CSC scholarship (started September 2025, co-supervised with Nathan Lepora).
 * Yidong Qiu &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft (started February 2025, co-supervised by Djamel Rezgui).

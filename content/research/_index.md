@@ -3,15 +3,15 @@ title: "Research"
 description: "Research in nonlinear dynamics, scientific machine learning, and tactile robotics at the University of Bristol. Open to PhD students, post-docs, and collaborators."
 ---
 
-I lead a research group at the intersection of **applied mathematics**, **engineering**, and **machine learning**. My core focus is [scientific machine learning (SciML)](background/) applied to nonlinear dynamics &mdash; fusing physics-based models with data-driven approaches to tackle problems that neither field can solve alone.
+I lead a research team at the intersection of **applied mathematics**, **engineering**, and **machine learning**. My core focus is [scientific machine learning (SciML)](background/) applied to nonlinear dynamics &mdash; fusing physics-based models with data-driven approaches to tackle problems that neither field can solve alone.
 
-Current application areas include aeroelastic flutter in next-generation aircraft, tactile robotics, nuclear fusion materials, and engineering biology. I also work on fundamental methods: control-based continuation, bifurcation analysis, and numerical methods for dynamical systems.
+Current application areas include (but are not limited to) whirl flutter in next-generation aircraft, tactile robotics, nuclear fusion materials, and engineering biology. I also work on fundamental methods: control-based continuation, bifurcation analysis, and numerical methods for dynamical systems.
 
-The group currently has **13 doctoral students** and strong links to the [Robotics Research Group](https://www.bristol.ac.uk/engineering/research/robotics/), the [Dynamics and Control Research Group](https://www.bristol.ac.uk/engineering/research/dynamics/), and the [Computational Neuroscience Research Group](https://bristolcnu.github.io/).
+The team currently has **13 doctoral students** and sits within the [Engineering Mathematics Research Group](https://www.bristol.ac.uk/research/groups/engineering-mathematics/). We have strong links to the [Dexterous Robotics Research Group](https://www.bristolroboticslab.com/dexterous-robotics), the [Dynamics and Control Research Group](https://www.bristol.ac.uk/engineering/research/dynamics/), and the [Mathematical and Engineering Biology Research Group](https://www.bristol.ac.uk/research/groups/engineering-mathematics/research/mathematical-and-engineering-biology/).
 
 ---
 
-**Are you looking to...**
+### Are you looking to...
 
 - [Read about my research background and publications](background/)
 - [See example PhD projects and join the group](phd-projects/)
