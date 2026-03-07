@@ -5,7 +5,7 @@ aliases:
   - /research/new-collaborations/
 ---
 
-I manage a collaborative and friendly team of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Dexterous Robotics Research Group, the Dynamics and Control Research Group, and the Mathematical Biology Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, Renishaw).
+I manage a collaborative and friendly team of researchers who strive to do excellent work at the intersection of applied mathematics, engineering, and machine learning. We work within the larger Engineering Mathematics Research Group and have strong connections to other areas such as the Dexterous Robotics Research Group, the Dynamics and Control Research Group, and the Mathematical Biology Research Group. It's a very supportive environment, with researchers going on to a wide range of opportunities including lectureships (e.g., Imperial, Exeter, and Glasgow) and industrial careers (e.g., Dyson, Rolls Royce, and Renishaw).
 
 ## PhD students
 

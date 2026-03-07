@@ -5,7 +5,7 @@ weight: 10
 
 ## Biography
 
-David A W Barton is Professor of Computational and Experimental Mathematics in the School of Engineering Mathematics and Technology at the University of Bristol (appointed 2023). He held postdoctoral positions as a Lloyds Tercentenary Foundation Fellow (2006–2007) and Great Western Research Fellow (2007–2010) at Bristol, with a period as International Scholar in Mechanical Engineering and Materials Science at Duke University, USA (2009–2010), before being appointed Lecturer in 2010. He received his PhD from the University of Bristol in 2006. He is co-Director of the [Data-Driven Engineering and Sciences](https://engmaths.github.io/ddes-dte/) doctoral training environment in the School of Engineering Mathematics and Technology.
+David A W Barton is Professor of Computational and Experimental Mathematics in the School of Engineering Mathematics and Technology at the University of Bristol (appointed 2023) and co-Director of the [Data-Driven Engineering and Sciences](https://engmaths.github.io/ddes-dte/) doctoral training environment. He received his PhD from the University of Bristol in 2006, followed by postdoctoral positions as a Lloyds Tercentenary Foundation Fellow (2006–2007) and Great Western Research Fellow (2007–2010) at Bristol, with a period as International Scholar in Mechanical Engineering and Materials Science at Duke University, USA (2009–2010). He was appointed Lecturer in 2010.
 
 ---
 
@@ -25,7 +25,7 @@ CBC has been applied to nonlinear oscillators, aeroelastic flutter in wind-tunne
 
 ## Scientific machine learning
 
-SciML seeks to fuse physics-based models (differential equations, conservation laws, known structure) with data-driven methods (Gaussian processes, neural networks, reinforcement learning). Neither pure physics nor pure data science is sufficient for many engineering problems: the physics provides structure and extrapolation ability; the data fills in what the physics cannot capture.
+SciML seeks to fuse physics-based models (differential equations, conservation laws, known structure) with data-driven methods (Gaussian processes, neural networks, and reinforcement learning). Neither pure physics nor pure data science is sufficient for many engineering problems: the physics provides structure and extrapolation ability; the data fills in what the physics cannot capture.
 
 Current projects in this area span neural dynamics, engineering biology, and the design of surrogate models for power electronics. I am also interested in the theoretical underpinnings: uncertainty quantification, out-of-distribution generalisation, and the design of SciML architectures that respect the geometry of the underlying dynamical system.
 
@@ -73,10 +73,10 @@ My research has been supported by the [Engineering and Physical Sciences Researc
 
 ## Research specialities
 
-- Mathematical modelling (engineering, biosciences, neuroscience)
+- Mathematical modelling (engineering, biosciences, and neuroscience)
 - Dynamics and control of nonlinear systems
 - Numerical methods for dynamical systems (particularly bifurcation analysis and numerical continuation)
 - Systems with delay (delay differential equations)
-- Scientific machine learning (Gaussian processes, neural networks, reinforcement learning)
+- Scientific machine learning (Gaussian processes, neural networks, and reinforcement learning)
 - Control-based continuation for physical experiments
 - Uncertainty quantification for dynamical systems
