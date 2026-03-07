@@ -9,7 +9,7 @@ I'm more generally interested in the theory/practice underpinning scientific com
 
 ## Publications
 
-For a full list of my publications, see my **[Google Scholar page](https://scholar.google.co.uk/citations?user=9lxSeYMAAAAJ&hl=en)**. I also have profiles on [ORCID](https://orcid.org/0000-0003-4878-7077) and [ResearchGate](https://www.researchgate.net/profile/David-Barton-7).
+For a full list of my publications, see my **[Google Scholar page](https://scholar.google.co.uk/citations?user=9lxSeYMAAAAJ&hl=en)**. I also have profiles on [ORCID](https://orcid.org/0000-0002-0595-4239) and [ResearchGate](https://www.researchgate.net/profile/David-Barton-7).
 
 ## Research specialities
 
