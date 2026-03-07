@@ -34,7 +34,7 @@ Current projects in this area span neural dynamics, engineering biology, and the
 Research in the group spans several engineering and scientific domains:
 
 - **Aeroelastic flutter** — understanding and controlling whirl flutter in next-generation electric vertical take-off and landing (eVTOL) aircraft, in collaboration with Djamel Rezgui and Mark Lowenberg.
-- **Tactile robotics** — online learning for the [TacTip](https://lepora.com/tactip/) optical tactile sensor, enabling robots to learn dexterous manipulation skills with minimal data, in collaboration with [Nathan Lepora](https://lepora.com/).
+- **Tactile robotics** — online learning for the [TacTip](https://lepora.com/tactip/) optical tactile sensor, enabling robots to learn dexterous manipulation skills with minimal data, in collaboration with [Nathan Lepora](https://lepora.com/) and [Efi Psomopoulou](https://efipsom.github.io).
 - **Engineering biology** — applying SciML and agent-based modelling to gene regulatory networks and non-small cell lung cancer, in collaboration with Lucia Marucci.
 - **Nuclear fusion materials** — machine learning for predicting material properties under extreme conditions, in collaboration with the [UK Atomic Energy Authority](https://www.gov.uk/government/organisations/uk-atomic-energy-authority).
 - **Power electronics** — surrogate modelling and optimal design of modular multi-level converters for offshore wind turbines, in collaboration with Ian Laird.
