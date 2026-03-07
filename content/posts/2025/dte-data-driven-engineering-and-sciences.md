@@ -1,7 +1,7 @@
 ---
 title: "New PhD programme in Data-Driven Engineering and Sciences"
 date: 2025-02-04
-tags: ["potential-project"]
+tags: []
 ---
 
 For anyone who is interested in data-driven approaches to engineering problems (or more general science), I've been appointed the co-director of a new PhD programme in *Data-Driven Engineering and Sciences* in the [School of Engineering Mathematics and Technology](https://www.bristol.ac.uk/science-engineering/schools/eng-maths-tech/#research) at the [University of Bristol](https://www.bristol.ac.uk).

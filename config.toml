@@ -15,11 +15,13 @@ mainSections = ["posts"]
 enabled = true
 title = "David A W Barton"
 subtitle = """
-**_Professor of Computional and Experimental Mathematics_**
+**_Professor of Computational and Experimental Mathematics_**
 
-University of Bristol
+[University of Bristol](https://www.bristol.ac.uk/)
 
-Researcher, Teacher, Open Source Developer, Christian
+Nonlinear dynamics &middot; Scientific machine learning &middot; Tactile robotics
+
+[Research](/research/) &nbsp;&bull;&nbsp; [PhD opportunities](/research/phd-projects/) &nbsp;&bull;&nbsp; [Collaborations](/research/new-researchers/)
 """
 imageUrl = "about-me/DavidBarton-square.jpg"
 imageTitle = "A picture of David A W Barton"
@@ -57,7 +59,12 @@ weight = 10
 [[menu.main]]
 name = "Research"
 url = "/research/"
-weight = 20
+weight = 15
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 25
 
 [[menu.main]]
 name = "Open source"
@@ -68,8 +75,3 @@ weight = 30
 name = "Christianity"
 url = "/christianity/"
 weight = 40
-
-[[menu.main]]
-name = "Blog"
-url = "/posts/"
-weight = 15
