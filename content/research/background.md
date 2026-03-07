@@ -3,6 +3,12 @@ title: "Background"
 weight: 10
 ---
 
+## Biography
+
+David A W Barton is Professor of Computational and Experimental Mathematics in the School of Engineering Mathematics and Technology at the University of Bristol. He has spent his entire independent career at Bristol, progressing through Lecturer (2010), Senior Lecturer with accelerated progression (2016), Reader (2018), and Professor (2023). Prior to his independent career he held postdoctoral positions at Bristol — a Lloyds Tercentenary Foundation Fellowship (2006–2007) and a Great Western Research Fellowship (2007–2010) — with a period as International Scholar in Mechanical Engineering and Materials Science at Duke University, USA (2009–2010).
+
+---
+
 My research sits at the boundary of applied mathematics, engineering, and machine learning. The unifying theme is understanding and exploiting the behaviour of **nonlinear dynamical systems** — from aircraft wings and robotic fingers to biological cells and power converters — using a combination of mathematical theory, numerical methods, and data-driven approaches.
 
 ## Research vision
@@ -33,11 +39,37 @@ Research in the group spans several engineering and scientific domains:
 - **Nuclear fusion materials** — machine learning for predicting material properties under extreme conditions, in collaboration with the [UK Atomic Energy Authority](https://www.gov.uk/government/organisations/uk-atomic-energy-authority).
 - **Power electronics** — surrogate modelling and optimal design of modular multi-level converters for offshore wind turbines, in collaboration with Ian Laird.
 
-## Publications
+## Selected publications
 
-For a full list of publications, see my **[Google Scholar page](https://scholar.google.co.uk/citations?user=9lxSeYMAAAAJ&hl=en)**. I also have profiles on [ORCID](https://orcid.org/0000-0002-0595-4239) and [ResearchGate](https://www.researchgate.net/profile/David-Barton-7).
+The papers below give a cross-section of the main research themes. For a full list see my **[Google Scholar page](https://scholar.google.co.uk/citations?user=9lxSeYMAAAAJ&hl=en)**, [ORCID](https://orcid.org/0000-0002-0595-4239), or [ResearchGate](https://www.researchgate.net/profile/David-Barton-7).
 
-Key topics to search for include: *control-based continuation*, *nonlinear dynamics*, *scientific machine learning*, *bifurcation analysis*, and *tactile robotics*.
+**Control-based continuation — method and stability**
+
+Barton, D.A.W. (2017). Control-based continuation: bifurcation and stability analysis for physical experiments. *Mechanical Systems and Signal Processing*, 84, 54–64. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/control-based-continuation-bifurcation-and-stability-analysis-for)
+
+**CBC with Gaussian process regression**
+
+Renson, L.; Sieber, J.; Barton, D.; Shaw, A.; Neild, S. (2019). Numerical continuation in nonlinear experiments using local Gaussian process regression. *Nonlinear Dynamics*. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/numerical-continuation-in-nonlinear-experiments-using-local-gauss)
+
+**CBC applied to multi-DOF structures**
+
+Renson, L.; Shaw, A.D.; Barton, D.; Neild, S. (2019). Application of control-based continuation to a nonlinear structure with harmonically coupled modes. *Mechanical Systems and Signal Processing*, 120, 449–464. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/application-of-control-based-continuation-to-a-nonlinear-structur)
+
+**Scientific machine learning for experimental bifurcation analysis**
+
+Beregi, S.; Barton, D.A.W.; Rezgui, D.; Neild, S. (2022). Using scientific machine learning for experimental bifurcation analysis of dynamic systems. *Mechanical Systems and Signal Processing*. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/using-scientific-machine-learning-for-experimental-bifurcation-an)
+
+**Hybrid mechanistic–ML modelling**
+
+Lee, K.H.; Barton, D.A.W.; Renson, L. (2023). Modelling of physical systems with a Hopf bifurcation using mechanistic models and machine learning. *Mechanical Systems and Signal Processing*.
+
+**Delay differential equations — numerical methods**
+
+Khasawneh, F.A.; Mann, B.P.; Insperger, T.; Barton, D.A.W. (2012). Periodic solutions of nonlinear delay differential equations using spectral element method. *Nonlinear Dynamics*. [[Springer]](https://link.springer.com/article/10.1007/s11071-011-0017-3)
+
+**Neural context flows for generalizable dynamical systems**
+
+Nzoyem, R.D.; Barton, D.A.W.; Deakin, T. (2024). Neural context flows for learning generalizable dynamical systems. *arXiv preprint*.
 
 ## Funding
 
