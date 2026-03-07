@@ -2,21 +2,10 @@
 title: "Open source"
 ---
 
-A selection of open source projects I have worked on over the years. All code is on [GitHub](https://github.com/dawbarton/).
+Most of my open source work is done within the [Julia](https://julialang.org/) programming language ecosystem. I have been an active Julia user since 2016 and contribute to the [SciML](https://sciml.ai/) (Scientific Machine Learning) ecosystem, which provides the differential equations, optimisation, and machine learning infrastructure underlying much of my research. All of my code is on [GitHub](https://github.com/dawbarton/).
 
-## Research software
+## Projects
 
-Tools developed as part of or alongside my research programme in nonlinear dynamics and scientific machine learning.
-
-- [NumericalContinuation.jl](numericalcontinuation/) — numerical continuation in Julia, in the style of COCO
-- [AeroelasticCBC.jl](aeroelasticcbc/) — control-based continuation applied to aeroelastic experiments
 - [BarycentricInterpolation.jl](barycentricinterpolation/) — barycentric Lagrange interpolation and differentiation in Julia
-- [RTC](rtc/) — open-hardware real-time controller for physical experiments
-
-## Teaching and community
-
-- [UoB Beamer theme](uob-beamer-theme/) — LaTeX Beamer presentation theme for the University of Bristol
-
-## Utilities
-
-- [pdf2svg](pdf2svg/) — PDF to SVG converter (historical; superseded by `pdftocairo`)
+- [RTC](rtc/) — open-hardware real-time controller used in control-based continuation experiments
+- [pdf2svg](pdf2svg/) — PDF to SVG converter (historical; now superseded by `pdftocairo`)

@@ -51,10 +51,6 @@ Barton, D.A.W. (2017). Control-based continuation: bifurcation and stability ana
 
 Renson, L.; Sieber, J.; Barton, D.; Shaw, A.; Neild, S. (2019). Numerical continuation in nonlinear experiments using local Gaussian process regression. *Nonlinear Dynamics*. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/numerical-continuation-in-nonlinear-experiments-using-local-gauss)
 
-**CBC applied to multi-DOF structures**
-
-Renson, L.; Shaw, A.D.; Barton, D.; Neild, S. (2019). Application of control-based continuation to a nonlinear structure with harmonically coupled modes. *Mechanical Systems and Signal Processing*, 120, 449–464. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/application-of-control-based-continuation-to-a-nonlinear-structur)
-
 **Scientific machine learning for experimental bifurcation analysis**
 
 Beregi, S.; Barton, D.A.W.; Rezgui, D.; Neild, S. (2022). Using scientific machine learning for experimental bifurcation analysis of dynamic systems. *Mechanical Systems and Signal Processing*. [[Bristol portal]](https://research-information.bris.ac.uk/en/publications/using-scientific-machine-learning-for-experimental-bifurcation-an)
@@ -63,9 +59,9 @@ Beregi, S.; Barton, D.A.W.; Rezgui, D.; Neild, S. (2022). Using scientific machi
 
 Lee, K.H.; Barton, D.A.W.; Renson, L. (2023). Modelling of physical systems with a Hopf bifurcation using mechanistic models and machine learning. *Mechanical Systems and Signal Processing*.
 
-**Delay differential equations — numerical methods**
+**Tactile robotics — in-hand dexterous manipulation**
 
-Khasawneh, F.A.; Mann, B.P.; Insperger, T.; Barton, D.A.W. (2012). Periodic solutions of nonlinear delay differential equations using spectral element method. *Nonlinear Dynamics*. [[Springer]](https://link.springer.com/article/10.1007/s11071-011-0017-3)
+Yang, M.; Lu, C.; Church, A.; Lin, Y.; Ford, C.; Li, H.; Psomopoulou, E.; Barton, D.; Lepora, N. (2024). AnyRotate: Gravity-invariant in-hand object rotation with sim-to-real touch. *Conference on Robot Learning (CoRL)*. [[arXiv]](https://arxiv.org/abs/2405.07391)
 
 **Neural context flows for generalizable dynamical systems**
 
