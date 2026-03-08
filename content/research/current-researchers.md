@@ -8,9 +8,9 @@ If you are interested in working with me, either as a PhD student or a Research 
 ## Current doctoral research students
 
 <!-- Remove Harry / Max and add Youssef? -->
-* Bingyu Li &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft and funded by a CSC scholarship (started September 2025, co-supervised by Djamel Rezgui).
+* Bingyu Li &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft and funded by a CSC scholarship (started September 2025, co-supervised with Djamel Rezgui).
 * Keju Pu &mdash; working on tool use in tactile robotics and funded by a CSC scholarship (started September 2025, co-supervised with Nathan Lepora).
-* Yidong Qiu &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft (started February 2025, co-supervised by Djamel Rezgui).
+* Yidong Qiu &mdash; working on the nonlinear dynamics of whirl flutter in the context of eVTOL aircraft (started February 2025, co-supervised with Djamel Rezgui).
 * Ningyuan Xu &mdash; working on scientific machine learning in the context of engineering biology and funded by a CSC scholarship (started January 2025, co-supervised with Lucia Marucci).
 * Jun Wang &mdash; working on control-based continuation for experimentally investigating the nonlinear dynamics of a Hawk aircraft model (started September 2024, co-supervised with Mark Lowenberg).
 * Wenhao He &mdash; working on multi-modal deep reinforcement learning for tactile robotics and funded by a CSC scholarship (started September 2024, co-supervised with Nathan Lepora).
