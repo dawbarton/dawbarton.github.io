@@ -63,7 +63,7 @@ Lee, K.H.; Barton, D.A.W.; Renson, L. (2023). Modelling of physical systems with
 
 Yang, M.; Lu, C.; Church, A.; Lin, Y.; Ford, C.; Li, H.; Psomopoulou, E.; Barton, D.; Lepora, N. (2024). AnyRotate: Gravity-invariant in-hand object rotation with sim-to-real touch. *Conference on Robot Learning (CoRL)*. [[arXiv]](https://arxiv.org/abs/2405.07391)
 
-**Neural context flows for generalizable dynamical systems**
+**Neural context flows for generalisable dynamical systems**
 
 Nzoyem, R.D.; Barton, D.A.W.; Deakin, T. (2025). Neural context flows for meta-learning of dynamical systems. *International Conference on Learning Representations (ICLR)*. [[OpenReview]](https://openreview.net/pdf?id=8vzMLo8LDN)
 
