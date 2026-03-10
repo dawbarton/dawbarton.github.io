@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Double Pendulum</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #0d0d1a;
+      color: #e0e0f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 14px;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+
+    #canvas-panel {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0d0d1a;
+      min-width: 0;
+    }
+
+    #pendulumCanvas {
+      display: block;
+      border-radius: 8px;
+      background: #0d0d1a;
+    }
+
+    #controls-panel {
+      flex: 0 0 290px;
+      background: #12122a;
+      border-left: 1px solid #2a2a4a;
+      padding: 20px 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    #controls-panel h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #c0c0f0;
+      letter-spacing: 0.05em;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .control-group h3 {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #5050a0;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #2a2a4a;
+      margin-bottom: 2px;
+    }
+
+    .slider-row {
+      display: grid;
+      grid-template-columns: 26px 1fr 58px;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .slider-row label {
+      font-size: 13px;
+      color: #8888cc;
+      text-align: right;
+      font-style: italic;
+    }
+
+    .slider-value {
+      font-size: 12px;
+      color: #b0b0e0;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      background: #252545;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #4a80d9;
+      cursor: pointer;
+      border: 2px solid #0d0d1a;
+      transition: background 0.15s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      background: #6a9fe9;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #4a80d9;
+      cursor: pointer;
+      border: 2px solid #0d0d1a;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    button {
+      padding: 9px 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+      letter-spacing: 0.04em;
+    }
+
+    button:hover { opacity: 0.88; }
+    button:active { transform: scale(0.97); }
+
+    #btn-start-stop {
+      background: #1e6b1e;
+      color: #aaffaa;
+      flex: 1;
+    }
+
+    #btn-start-stop.running {
+      background: #7a1e1e;
+      color: #ffaaaa;
+    }
+
+    #btn-reset {
+      background: #222242;
+      color: #9090cc;
+      border: 1px solid #3a3a5a;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      cursor: pointer;
+      color: #9090cc;
+      font-size: 13px;
+      line-height: 1.45;
+      user-select: none;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      margin-top: 2px;
+      accent-color: #ff9800;
+      cursor: pointer;
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    .comparison-note {
+      font-size: 11px;
+      color: #5050a0;
+      line-height: 1.4;
+      padding-left: 22px;
+    }
+
+    #energy-display {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding: 10px 12px;
+      background: #0d0d20;
+      border-radius: 6px;
+      border: 1px solid #2a2a4a;
+    }
+
+    #energy-display .energy-title {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #5050a0;
+      margin-bottom: 2px;
+    }
+
+    .energy-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: #5050a0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .energy-row span {
+      color: #7070b0;
+    }
+
+    #info-footer {
+      font-size: 11px;
+      color: #3a3a6a;
+      line-height: 1.5;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid #1e1e3a;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        overflow-y: auto;
+        height: auto;
+        /* Prevent iOS bounce / overscroll issues */
+        -webkit-overflow-scrolling: touch;
+      }
+
+      #app {
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh; /* dvh accounts for browser chrome on mobile */
+      }
+
+      /* Canvas panel: square, fills full width */
+      #canvas-panel {
+        flex: 0 0 auto;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        padding: 8px;
+      }
+
+      #pendulumCanvas {
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      /* Controls panel: full width below canvas, scrollable */
+      #controls-panel {
+        flex: 1 1 auto;
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #2a2a4a;
+        overflow-y: visible;
+        padding: 14px 12px;
+        gap: 16px;
+      }
+
+      /* Lay the two IC control-groups (angles + lengths/masses) side by side */
+      #controls-panel h2 {
+        font-size: 15px;
+      }
+
+      /* Larger touch targets for sliders */
+      input[type="range"] {
+        height: 6px;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        width: 22px;
+        height: 22px;
+        border-width: 3px;
+      }
+
+      input[type="range"]::-moz-range-thumb {
+        width: 22px;
+        height: 22px;
+        border-width: 3px;
+      }
+
+      /* Bigger buttons */
+      button {
+        padding: 12px;
+        font-size: 14px;
+      }
+
+      /* Slightly larger checkbox */
+      .checkbox-label input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+      }
+
+      /* Energy display: single row */
+      #energy-display {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 8px 10px;
+      }
+
+      #energy-display .energy-title {
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+      .energy-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        font-size: 11px;
+      }
+
+      #info-footer {
+        display: none; /* hide on small screens to save space */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="canvas-panel">
+      <canvas id="pendulumCanvas">
+        Your browser does not support HTML5 Canvas.
+      </canvas>
+    </div>
+
+    <div id="controls-panel">
+      <h2>Double Pendulum</h2>
+
+      <!-- Initial Conditions Sliders -->
+      <div class="control-group">
+        <h3>Initial Conditions</h3>
+
+        <div class="slider-row">
+          <label for="slider-theta1">θ₁</label>
+          <input type="range" id="slider-theta1" min="-180" max="180" step="1" value="120">
+          <span class="slider-value" id="val-theta1">120°</span>
+        </div>
+
+        <div class="slider-row">
+          <label for="slider-theta2">θ₂</label>
+          <input type="range" id="slider-theta2" min="-180" max="180" step="1" value="120">
+          <span class="slider-value" id="val-theta2">120°</span>
+        </div>
+
+        <div class="slider-row">
+          <label for="slider-l1">l₁</label>
+          <input type="range" id="slider-l1" min="100" max="300" step="1" value="200">
+          <span class="slider-value" id="val-l1">2.00 m</span>
+        </div>
+
+        <div class="slider-row">
+          <label for="slider-l2">l₂</label>
+          <input type="range" id="slider-l2" min="100" max="300" step="1" value="200">
+          <span class="slider-value" id="val-l2">2.00 m</span>
+        </div>
+
+        <div class="slider-row">
+          <label for="slider-m1">m₁</label>
+          <input type="range" id="slider-m1" min="0.1" max="3.0" step="0.05" value="1.0">
+          <span class="slider-value" id="val-m1">1.00 kg</span>
+        </div>
+
+        <div class="slider-row">
+          <label for="slider-m2">m₂</label>
+          <input type="range" id="slider-m2" min="0.1" max="3.0" step="0.05" value="1.0">
+          <span class="slider-value" id="val-m2">1.00 kg</span>
+        </div>
+      </div>
+
+      <!-- Simulation Controls -->
+      <div class="control-group">
+        <h3>Simulation</h3>
+        <div class="button-row">
+          <button id="btn-start-stop">Start</button>
+          <button id="btn-reset">Reset</button>
+        </div>
+        <div class="slider-row">
+          <label for="slider-speed">⏩</label>
+          <input type="range" id="slider-speed" min="0.5" max="5" step="0.5" value="1">
+          <span class="slider-value" id="val-speed">1.0×</span>
+        </div>
+      </div>
+
+      <!-- Comparison Pendulum -->
+      <div class="control-group">
+        <h3>Chaos Demonstration</h3>
+        <label class="checkbox-label">
+          <input type="checkbox" id="chk-comparison">
+          Show comparison pendulum
+        </label>
+        <p class="comparison-note">
+          A second pendulum (orange) with θ₁ offset by 10⁻⁶ rad. Watch how a tiny difference in initial conditions leads to vastly different behaviour.
+        </p>
+      </div>
+
+      <!-- Energy Display -->
+      <div id="energy-display">
+        <div class="energy-title">Mechanical Energy</div>
+        <div class="energy-row">Kinetic <span id="ke-val">0.0</span></div>
+        <div class="energy-row">Potential <span id="pe-val">0.0</span></div>
+        <div class="energy-row">Total <span id="te-val">0.0</span></div>
+      </div>
+
+      <div id="info-footer">
+        Angles measured from downward vertical.<br>
+        Initial angular velocities are zero.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ===== CONSTANTS ===== */
+    const G = 9.81;
+    const DT = 0.002; // small step for symplectic Euler accuracy (~10 steps/frame at 60fps)
+    const TRAIL_MAX_AGE = 2000; // ms
+    const TRAIL_MAX_POINTS = 1200;
+    const DENOM_EPSILON = 1e-10;
+    const PENDULUM1_COLOR = '#00e5ff';
+    const PENDULUM2_COLOR = '#ff9800';
+    const BOB_RADIUS_BASE = 9;
+    const PIVOT_RADIUS = 5;
+
+    /* ===== PHYSICS ===== */
+
+    /**
+     * Compute angular accelerations [α1, α2] from current state.
+     * Derived from the Lagrangian of the double pendulum.
+     * Standard formulation from Taylor "Classical Mechanics" §11.6.
+     */
+    function angularAccelerations(th1, th2, om1, om2, params) {
+      const { l1, l2, m1, m2 } = params;
+      const delta = th1 - th2;
+      const sinD = Math.sin(delta);
+      const cosD = Math.cos(delta);
+      const sin1 = Math.sin(th1);
+      const sin2 = Math.sin(th2);
+      const M = m1 + m2;
+
+      // EOM (from Lagrangian, standard result):
+      //   M*l1*α₁ + m2*l2*α₂*cos(δ) = -m2*l2*ω₂²*sin(δ) - M*g*sin(θ₁)   ...(1)
+      //   m2*l2*α₂ + m2*l1*α₁*cos(δ) =  m2*l1*ω₁²*sin(δ) - m2*g*sin(θ₂)  ...(2)
+      //
+      // Define RHS:
+      const f1 = -m2 * l2 * om2 * om2 * sinD - M * G * sin1;
+      const f2 =  m2 * l1 * om1 * om1 * sinD - m2 * G * sin2;
+      //
+      // Solve via Cramer's rule on [[M*l1, m2*l2*cosD], [m2*l1*cosD, m2*l2]]:
+      //   det = m2*l1*l2*(M - m2*cos²(δ)) = m2*l1*l2*D
+      const D = M - m2 * cosD * cosD; // > 0 always when m1 > 0
+
+      if (Math.abs(D) < DENOM_EPSILON) return [0, 0];
+
+      //   α₁ = (m2*l2*f1 - m2*l2*cosD*f2) / (m2*l1*l2*D)
+      //      = (f1 - cosD*f2) / (l1*D)          [m2*l2 cancels]
+      const alpha1 = (f1 - cosD * f2) / (l1 * D);
+
+      //   α₂ = (M*l1*f2 - m2*l1*cosD*f1) / (m2*l1*l2*D)
+      //      = (M*f2 - m2*cosD*f1) / (m2*l2*D)  [l1 cancels]
+      const alpha2 = (M * f2 - m2 * cosD * f1) / (m2 * l2 * D);
+
+      return [alpha1, alpha2];
+    }
+
+    /**
+     * Symplectic Euler (semi-implicit Euler) integration step.
+     * Symplectic integrators preserve the phase-space volume (Liouville's theorem)
+     * and are bounded-energy by construction — they never drift to infinity.
+     * Algorithm: first update momenta (ω) using accelerations at current (θ),
+     * then update positions (θ) using the *new* ω. This breaks the symmetric
+     * time-stepping of RK4 but gains long-term stability.
+     */
+    function sympEulerStep(state, params, dt) {
+      const [th1, th2, om1, om2] = state;
+
+      // 1. Compute accelerations at current positions
+      const [alpha1, alpha2] = angularAccelerations(th1, th2, om1, om2, params);
+
+      // 2. Update angular velocities first
+      const om1New = om1 + alpha1 * dt;
+      const om2New = om2 + alpha2 * dt;
+
+      // 3. Update angles using the NEW velocities (this is the symplectic half)
+      const th1New = th1 + om1New * dt;
+      const th2New = th2 + om2New * dt;
+
+      return [th1New, th2New, om1New, om2New];
+    }
+
+    /* ===== STATE ===== */
+
+    // Initial conditions (source of truth for sliders and reset)
+    const initState = {
+      theta1: 2 * Math.PI / 3,
+      theta2: 2 * Math.PI / 3,
+      l1: 200,
+      l2: 200,
+      m1: 1.0,
+      m2: 1.0,
+    };
+
+    let state1 = null;
+    let state2 = null;
+    let trail1 = [];
+    let trail2 = [];
+    let isRunning = false;
+    let speedMultiplier = 1.0;
+    let showComparison = false;
+    let animFrameId = null;
+    let lastFrameTime = null;
+
+    function resetSimulation() {
+      state1 = [initState.theta1, initState.theta2, 0, 0];
+      state2 = [initState.theta1 + 1e-6, initState.theta2, 0, 0];
+      trail1 = [];
+      trail2 = [];
+    }
+
+    /* ===== CANVAS SETUP ===== */
+
+    const canvas = document.getElementById('pendulumCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // w and h are optional — passed directly from ResizeObserver to avoid
+    // a stale re-query of getBoundingClientRect during the callback.
+    function resizeCanvas(w, h) {
+      if (w === undefined || h === undefined) {
+        const rect = document.getElementById('canvas-panel').getBoundingClientRect();
+        w = rect.width;
+        h = rect.height;
+      }
+      // On mobile the panel is square (aspect-ratio:1/1), so min(w,h)≈w.
+      // On desktop the panel is wider than tall, so min(w,h)=h gives a square.
+      const padding = w < 500 ? 16 : 20;
+      const size = Math.min(w, h) - padding;
+      canvas.width = size > 100 ? Math.round(size) : 400;
+      canvas.height = canvas.width;
+    }
+
+    /* ===== COORDINATE TRANSFORMS ===== */
+
+    // Reference canvas size: slider lengths are in pixels relative to this.
+    // All drawing scales proportionally so the pendulum fits any screen.
+    const REFERENCE_SIZE = 600;
+
+    function getScale() {
+      // Cap at 1.0 so arms never exceed slider values on large screens.
+      // Below REFERENCE_SIZE the arms shrink proportionally to fit the canvas.
+      return Math.min(1.0, canvas.width / REFERENCE_SIZE);
+    }
+
+    function getPivot() {
+      return { x: canvas.width / 2, y: Math.round(canvas.height * 0.35) };
+    }
+
+    function stateToCoords(state) {
+      const pivot = getPivot();
+      const [th1, th2] = state;
+      const scale = getScale();
+      const l1 = initState.l1 * scale;
+      const l2 = initState.l2 * scale;
+      const x1 = pivot.x + l1 * Math.sin(th1);
+      const y1 = pivot.y + l1 * Math.cos(th1);
+      const x2 = x1 + l2 * Math.sin(th2);
+      const y2 = y1 + l2 * Math.cos(th2);
+      return { px: pivot.x, py: pivot.y, x1, y1, x2, y2 };
+    }
+
+    /* ===== TRAIL MANAGEMENT ===== */
+
+    function appendTrail(trail, x, y, t) {
+      trail.push({ x, y, t });
+      if (trail.length > TRAIL_MAX_POINTS) {
+        trail.splice(0, trail.length - TRAIL_MAX_POINTS);
+      }
+    }
+
+    function pruneTrail(trail, now) {
+      const cutoff = now - TRAIL_MAX_AGE;
+      let i = 0;
+      while (i < trail.length && trail[i].t < cutoff) i++;
+      if (i > 0) trail.splice(0, i);
+    }
+
+    function drawTrail(trail, color, now) {
+      if (trail.length < 2) return;
+      ctx.save();
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = color;
+      for (let i = 1; i < trail.length; i++) {
+        const pt = trail[i];
+        const age = now - pt.t;
+        const alpha = Math.max(0, (1 - age / TRAIL_MAX_AGE) * 0.85);
+        ctx.globalAlpha = alpha;
+        ctx.beginPath();
+        ctx.moveTo(trail[i - 1].x, trail[i - 1].y);
+        ctx.lineTo(pt.x, pt.y);
+        ctx.stroke();
+      }
+      ctx.restore();
+    }
+
+    /* ===== DRAWING ===== */
+
+    function drawCeiling() {
+      const { px, py } = getPivot();
+      const s = getScale();
+      ctx.save();
+
+      // Ceiling bracket
+      ctx.fillStyle = '#2a2a4a';
+      ctx.fillRect(px - 35 * s, py - 8 * s, 70 * s, 8 * s);
+
+      // Hatching on ceiling
+      ctx.strokeStyle = '#3a3a6a';
+      ctx.lineWidth = 1;
+      for (let i = -30; i <= 30; i += 10) {
+        ctx.beginPath();
+        ctx.moveTo(px + i * s, py - 8 * s);
+        ctx.lineTo(px + (i - 6) * s, py - 14 * s);
+        ctx.stroke();
+      }
+
+      // Pivot pin
+      ctx.beginPath();
+      ctx.arc(px, py, PIVOT_RADIUS * s, 0, Math.PI * 2);
+      ctx.fillStyle = '#5050a0';
+      ctx.fill();
+      ctx.strokeStyle = '#8080c0';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    function drawPendulum(state, color) {
+      const { px, py, x1, y1, x2, y2 } = stateToCoords(state);
+      const { m1, m2 } = initState;
+      const s = getScale();
+      const r1 = BOB_RADIUS_BASE * Math.sqrt(m1) * s;
+      const r2 = BOB_RADIUS_BASE * Math.sqrt(m2) * s;
+
+      ctx.save();
+
+      // Arm 1
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2;
+      ctx.globalAlpha = 0.85;
+      ctx.beginPath();
+      ctx.moveTo(px, py);
+      ctx.lineTo(x1, y1);
+      ctx.stroke();
+
+      // Joint at bob 1
+      ctx.beginPath();
+      ctx.arc(x1, y1, 3, 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.globalAlpha = 0.6;
+      ctx.fill();
+
+      // Arm 2
+      ctx.globalAlpha = 0.85;
+      ctx.beginPath();
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+      ctx.stroke();
+
+      // Bob 1 (filled circle)
+      ctx.beginPath();
+      ctx.arc(x1, y1, r1, 0, Math.PI * 2);
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = color;
+      ctx.fill();
+      ctx.globalAlpha = 0.85;
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      // Bob 2 (filled circle, slightly brighter)
+      ctx.beginPath();
+      ctx.arc(x2, y2, r2, 0, Math.PI * 2);
+      ctx.globalAlpha = 0.65;
+      ctx.fillStyle = color;
+      ctx.fill();
+      ctx.globalAlpha = 1.0;
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    function drawFrame(now) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      drawCeiling();
+
+      // Trails drawn first (behind pendulum arms)
+      if (now !== undefined && trail1.length >= 2) {
+        pruneTrail(trail1, now);
+        drawTrail(trail1, PENDULUM1_COLOR, now);
+      }
+      if (now !== undefined && showComparison && trail2.length >= 2) {
+        pruneTrail(trail2, now);
+        drawTrail(trail2, PENDULUM2_COLOR, now);
+      }
+
+      // Draw comparison pendulum first so primary is rendered on top
+      if (showComparison && state2) {
+        drawPendulum(state2, PENDULUM2_COLOR);
+      }
+      if (state1) {
+        drawPendulum(state1, PENDULUM1_COLOR);
+      }
+
+      updateEnergyDisplay();
+    }
+
+    /* ===== ENERGY ===== */
+
+    function computeEnergy(state) {
+      const [th1, th2, om1, om2] = state;
+      const { m1, m2 } = initState;
+      // Normalised lengths (metres) — must match physics params
+      const l1 = initState.l1 / 100;
+      const l2 = initState.l2 / 100;
+
+      // KE = 0.5*m1*v1² + 0.5*m2*v2²
+      const v1sq = l1 * l1 * om1 * om1;
+      const v2sq = l1 * l1 * om1 * om1
+        + l2 * l2 * om2 * om2
+        + 2 * l1 * l2 * om1 * om2 * Math.cos(th1 - th2);
+      const KE = 0.5 * m1 * v1sq + 0.5 * m2 * v2sq;
+
+      // PE: pivot as reference (negative = below pivot)
+      const PE = -G * (m1 * l1 * Math.cos(th1) + m2 * (l1 * Math.cos(th1) + l2 * Math.cos(th2)));
+
+      return { KE, PE, E: KE + PE };
+    }
+
+    function updateEnergyDisplay() {
+      if (!state1) return;
+      const { KE, PE, E } = computeEnergy(state1);
+      document.getElementById('ke-val').textContent = KE.toFixed(1);
+      document.getElementById('pe-val').textContent = PE.toFixed(1);
+      document.getElementById('te-val').textContent = E.toFixed(1);
+    }
+
+    /* ===== ANIMATION LOOP ===== */
+
+    function advanceSimulation(wallDeltaMs) {
+      // Clamp to avoid large jumps (e.g. after tab switch)
+      const wallDelta = Math.min(wallDeltaMs / 1000, 0.05) * speedMultiplier;
+      const steps = Math.max(1, Math.round(wallDelta / DT));
+      // Normalise arm lengths to metres for physics (100px → 1 m).
+      // This keeps the swing period sensible (~2s for 1m arm) regardless of display scale.
+      const params = {
+        l1: initState.l1 / 100,
+        l2: initState.l2 / 100,
+        m1: initState.m1,
+        m2: initState.m2,
+      };
+      for (let i = 0; i < steps; i++) {
+        state1 = sympEulerStep(state1, params, DT);
+        if (showComparison) {
+          state2 = sympEulerStep(state2, params, DT);
+        }
+      }
+
+      // Guard against NaN (diverged simulation)
+      if (!isFinite(state1[0]) || !isFinite(state1[1])) {
+        stopSimulation();
+        resetSimulation();
+        drawFrame();
+        console.warn('Simulation diverged; auto-reset.');
+      }
+    }
+
+    function animationLoop(timestamp) {
+      if (!isRunning) return;
+
+      const wallDeltaMs = lastFrameTime !== null ? timestamp - lastFrameTime : 16;
+      lastFrameTime = timestamp;
+
+      advanceSimulation(wallDeltaMs);
+
+      // Record trail points once per frame
+      const c1 = stateToCoords(state1);
+      appendTrail(trail1, c1.x2, c1.y2, timestamp);
+
+      if (showComparison && state2) {
+        const c2 = stateToCoords(state2);
+        appendTrail(trail2, c2.x2, c2.y2, timestamp);
+      }
+
+      drawFrame(timestamp);
+
+      animFrameId = requestAnimationFrame(animationLoop);
+    }
+
+    /* ===== CONTROL HANDLERS ===== */
+
+    function startSimulation() {
+      isRunning = true;
+      const btn = document.getElementById('btn-start-stop');
+      btn.textContent = 'Stop';
+      btn.classList.add('running');
+      lastFrameTime = performance.now();
+      animFrameId = requestAnimationFrame(animationLoop);
+    }
+
+    function stopSimulation() {
+      isRunning = false;
+      const btn = document.getElementById('btn-start-stop');
+      btn.textContent = 'Start';
+      btn.classList.remove('running');
+      if (animFrameId !== null) {
+        cancelAnimationFrame(animFrameId);
+        animFrameId = null;
+      }
+    }
+
+    function onStartStop() {
+      if (isRunning) {
+        stopSimulation();
+      } else {
+        startSimulation();
+      }
+    }
+
+    function onReset() {
+      stopSimulation();
+      resetSimulation();
+      drawFrame();
+    }
+
+    function onSliderChange(param, rawValue) {
+      let value;
+      if (param === 'theta1' || param === 'theta2') {
+        value = parseFloat(rawValue) * Math.PI / 180;
+        document.getElementById('val-' + param).textContent = rawValue + '°';
+      } else if (param === 'm1' || param === 'm2') {
+        value = parseFloat(rawValue);
+        document.getElementById('val-' + param).textContent = value.toFixed(2) + ' kg';
+      } else {
+        value = parseInt(rawValue, 10);
+        document.getElementById('val-' + param).textContent = (value / 100).toFixed(2) + ' m';
+      }
+      initState[param] = value;
+
+      // Always stop and reset when slider changes
+      stopSimulation();
+      resetSimulation();
+      drawFrame();
+    }
+
+    function onComparisonChange(checked) {
+      showComparison = checked;
+      if (checked) {
+        // Stop and reset so both pendulums start together
+        stopSimulation();
+        resetSimulation();
+        drawFrame();
+      } else {
+        trail2 = [];
+        if (!isRunning) drawFrame();
+      }
+    }
+
+    /* ===== PAGE VISIBILITY ===== */
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        if (animFrameId !== null) {
+          cancelAnimationFrame(animFrameId);
+          animFrameId = null;
+        }
+      } else if (isRunning) {
+        lastFrameTime = performance.now();
+        animFrameId = requestAnimationFrame(animationLoop);
+      }
+    });
+
+    /* ===== RESIZE ===== */
+
+    // ResizeObserver fires on any panel size change: initial layout, window resize,
+    // orientation change, and mobile browser chrome appearing/disappearing.
+    const resizeObserver = new ResizeObserver((entries) => {
+      const entry = entries[0];
+      const w = entry.contentRect.width;
+      const h = entry.contentRect.height;
+      resizeCanvas(w, h);
+      trail1 = [];
+      trail2 = [];
+      if (!isRunning) drawFrame();
+    });
+    resizeObserver.observe(document.getElementById('canvas-panel'));
+
+    /* ===== INITIALIZATION ===== */
+
+    function init() {
+      resizeCanvas();
+
+      // Wire sliders
+      const sliders = [
+        { id: 'theta1', param: 'theta1' },
+        { id: 'theta2', param: 'theta2' },
+        { id: 'l1',     param: 'l1' },
+        { id: 'l2',     param: 'l2' },
+        { id: 'm1',     param: 'm1' },
+        { id: 'm2',     param: 'm2' },
+      ];
+
+      sliders.forEach(({ id, param }) => {
+        const slider = document.getElementById('slider-' + id);
+        slider.addEventListener('input', () => onSliderChange(param, slider.value));
+        // Set initial display without triggering reset logic (called before resetSimulation)
+        onSliderChange(param, slider.value);
+      });
+
+      // Wire buttons
+      document.getElementById('btn-start-stop').addEventListener('click', onStartStop);
+      document.getElementById('btn-reset').addEventListener('click', onReset);
+
+      // Wire speed slider
+      const speedSlider = document.getElementById('slider-speed');
+      speedSlider.addEventListener('input', () => {
+        speedMultiplier = parseFloat(speedSlider.value);
+        document.getElementById('val-speed').textContent = speedMultiplier.toFixed(1) + '×';
+      });
+
+      // Wire comparison checkbox
+      document.getElementById('chk-comparison').addEventListener('change', (e) => {
+        onComparisonChange(e.target.checked);
+      });
+
+      // Initial draw
+      resetSimulation();
+      drawFrame();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
